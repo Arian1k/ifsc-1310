@@ -3,3 +3,10 @@ body {
     color: white;
     font-family: "Oswald", sans-serif;
 }
+
+img{
+float: right;
+padding-right: 100px;
+height: 600px;
+width: 800px;
+}
