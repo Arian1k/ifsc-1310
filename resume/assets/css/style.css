@@ -13,14 +13,22 @@ main{
     }
 }
 
+.auto-grid {
+  --auto-grid-min-size: 16rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1rem;
+}
+
 
 
 /* CSS Custom Properties */
 
 :root{
-  --main-bg-color: #efefef;
-  --primary-type-color: #222222;
-  --accent-color-1: #999999;
+  --main-bg-color: #050046;
+  --primary-type-color: #ffffff;
+  --accent-color-1: #000000;
 }
 
 
@@ -49,7 +57,7 @@ html {
 
 /* ------ Typography -------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 /* ------ Fluid Images -------*/
@@ -124,7 +132,7 @@ main h1:after {
   background-color: var(--accent-color-1);
   content: "\a0";
   flex-grow: 1;
-  height: 1px;
+  height: 3px;
   position: relative;
   top: 0.77em;
 }
@@ -136,7 +144,7 @@ main h1:after {
 }
 
 dl {
-  font-size:.8rem;
+  font-size:0.8rem;
   display: grid;
   /*shorthand*/
   grid-template: repeat(8, 50px) / 8em 1fr;
@@ -146,13 +154,13 @@ dt {
   font-weight: 800;
   grid-column: 1;
   padding: 10px 0;
-  border-bottom: 1px solid var(--accent-color-1);
+  border-bottom: 2px solid var(--accent-color-1);
 }
 dd {
   margin: 0;
   grid-column: 2;
   padding: 10px 0;
-  border-bottom: 1px solid var(--accent-color-1);
+  border-bottom: 2px solid var(--accent-color-1);
 }
 
 .related-links {
