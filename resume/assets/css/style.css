@@ -1,8 +1,9 @@
 main{
     font-family: "Cormorant Garamond", serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: 400;
     font-style: normal;
+    padding: 10px;
 }
 
 
@@ -58,6 +59,7 @@ html {
 /* ------ Typography -------*/
 body {
   font-family: "Cormorant Garamond", serif;
+  padding: 10px;
 }
 
 /* ------ Fluid Images -------*/
@@ -99,7 +101,7 @@ nav li {
 
 nav a:link, nav a:visited {
   display: block;
-  padding: 8px 16px;
+  padding: 0.5rem 4rem;
   border: 1px solid #000;
   text-align: center;
   text-decoration: none;
@@ -289,4 +291,32 @@ main.container {
   padding-bottom:50px
 } 
   
+}
+
+
+nav.primary ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  nav.primary ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#skills h2,
+#experience h2,
+#education h2 {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
 }
