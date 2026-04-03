@@ -15,5 +15,11 @@ header{
     background-color: beige;
     color: rgb(1, 40, 1);
 }
+a:link{
+color:beige;
+}
 
+a:visited{
+    color:burlywood;
+}
 }
