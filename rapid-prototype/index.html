@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NBA FOUNDATION</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+    }
+
+    .navbar {
+      background-color: white;
+      border-bottom: 1px solid #ccc;
+      padding: 20px 40px;
+    }
+
+    .navbar h1 {
+      font-size: 28px;
+      color: #1d4d9c;
+    }
+
+    .navbar span {
+      color: #d7192d;
+    }
+
+    .hero {
+      background-color: #1d4d9c;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #d7192d;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .section {
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #1d4d9c;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: white;
+      width: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card h3 {
+      color: #1d4d9c;
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+
+    .stats {
+      background-color: white;
+      padding: 50px 20px;
+    }
+
+    .stats-row {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .stat h3 {
+      font-size: 32px;
+      color: #1d4d9c;
+      margin-bottom: 10px;
+    }
+
+    .mission {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .footer {
+      background-color: #1d4d9c;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>NBA <span>FOUNDATION</span></h1>
+  </div>
+
+  <div class="hero">
+    <h2>Empowering Communities Through Economic Opportunity</h2>
+    <p>The NBA Foundation supports programs that help create career opportunities and stronger futures for communities across the nation.</p>
+    <a href="#" class="button">Get Involved</a>
+  </div>
+
+  <div class="stats">
+    <div class="stats-row">
+      <div class="stat">
+        <h3>500K+</h3>
+        <p>Youth Reached</p>
+      </div>
+      <div class="stat">
+        <h3>$50M+</h3>
+        <p>Invested</p>
+      </div>
+      <div class="stat">
+        <h3>100+</h3>
+        <p>Organizations Funded</p>
+      </div>
+      <div class="stat">
+        <h3>30</h3>
+        <p>NBA Teams Involved</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Our Focus Areas</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1200&q=80" alt="Career building">
+        <div class="card-content">
+          <h3>Career Advancement</h3>
+          <p>Creating pathways through job training, career development, and employment opportunities.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1200&q=80" alt="Youth development">
+        <div class="card-content">
+          <h3>Youth Development</h3>
+          <p>Supporting programs that provide mentorship, education, and skill-building for young people.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80" alt="Community support">
+        <div class="card-content">
+          <h3>Community Engagement</h3>
+          <p>Building stronger communities through partnerships, resources, and local support.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Our Mission</h2>
+    <p class="mission">The NBA Foundation is dedicated to driving economic empowerment by investing in organizations that help young people build the skills and experiences needed for successful careers.</p>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2026 Arian King | <a href="#top">Back to Top</a>
+    This website was created as a student project for educational purposes. The NBA is not affiliated with or endorsing this work.</p>
+  </div>
+  </body>
+</html>
