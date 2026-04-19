@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Demo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+ <div class="video-container">
+ <video id="myVideo" preload="metadata" controls>
+  <source src="assets/img/City.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+  <div class="controls">
+    <button id="playPause" aria-label="Play">▶️</button>
+    <input type="range" id="seek" value="0" step="0.01" aria-label="Seek bar">
+    <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+
+    <button id="muteToggle" aria-label="Mute">🔊</button>
+    <input type="range" id="volume" min="0" max="1" step="0.01" value="1" aria-label="Volume slider">
+
+    <button id="fullscreenToggle" aria-label="Toggle fullscreen">⛶</button>
+  </div>
+</div>
+<script src="assets/js/script.js"></script>  
+</body>
+</html>
