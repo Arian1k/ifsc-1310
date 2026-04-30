@@ -1,25 +1,76 @@
-
-/*RANGED QUERY*/
-@media screen and (max-width: 1600px) and (min-width: 320px){
-
 body {
-    background-color: rgb(1, 40, 1);
-    color: white;
-    font-family: "Oswald", sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #012801, #064d20);
+  color: white;
+  font-family: "Oswald", sans-serif;
 }
 
-header{
-    display: grid;
-    border: 1px solid white;
-    text-align: center;
-    background-color: beige;
-    color: rgb(1, 40, 1);
-}
-a:link{
-color:beige;
+header {
+  background-color: beige;
+  color: rgb(1, 40, 1);
+  text-align: center;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 15px;
+  border: 3px solid white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
-a:visited{
-    color:burlywood;
+h1 {
+  font-size: 3rem;
+  margin: 0;
 }
+
+nav {
+  background-color: rgba(255, 255, 255, 0.12);
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid beige;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 12px 0;
+}
+
+p {
+  color: beige;
+  font-size: 1.4rem;
+  border-bottom: 2px solid beige;
+  padding-bottom: 5px;
+}
+
+a:link, a:visited {
+  color: beige;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 8px 12px;
+  display: inline-block;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: beige;
+  color: rgb(1, 40, 1);
+  transform: translateX(8px);
+}
+
+nav > ul > li {
+  background-color: rgba(0, 0, 0, 0.25);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+nav ul ul {
+  margin-left: 25px;
+  margin-top: 10px;
 }
