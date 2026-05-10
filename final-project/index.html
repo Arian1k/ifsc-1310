@@ -1,11 +1,184 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" itemscope itemtype="https://schema.org/WebSite">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NBA Foundation | Arian King Final Project</title>
+  <meta name="description" content="A student project website about the NBA Foundation and its community impact.">
+
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    
+
+<body id="top">
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <h1>NBA <span>FOUNDATION</span></h1>
+
+      <button class="menu-toggle" aria-controls="main-menu" aria-expanded="false">
+        Menu
+      </button>
+
+      <ul id="main-menu" class="nav-links">
+        <li><a href="#impact">Impact</a></li>
+        <li><a href="#focus">Focus Areas</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#mission">Mission</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Empowering Communities Through Economic Opportunity</h2>
+        <p>
+          The NBA Foundation supports programs that help create career opportunities
+          and stronger futures for communities across the nation.
+        </p>
+        <a href="#focus" class="button">Learn More</a>
+      </div>
+    </section>
+
+    <section id="impact" class="stats" aria-labelledby="impact-heading">
+      <h2 id="impact-heading">Community Impact</h2>
+
+      <div class="stats-row">
+        <article class="stat">
+          <h3>500K+</h3>
+          <p>Youth Reached</p>
+        </article>
+
+        <article class="stat">
+          <h3>$50M+</h3>
+          <p>Invested</p>
+        </article>
+
+        <article class="stat">
+          <h3>100+</h3>
+          <p>Organizations Funded</p>
+        </article>
+
+        <article class="stat">
+          <h3>30</h3>
+          <p>NBA Teams Involved</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="focus" class="section" aria-labelledby="focus-heading">
+      <h2 id="focus-heading">Our Focus Areas</h2>
+
+      <div class="cards">
+        <article class="card" itemscope itemtype="https://schema.org/Article">
+          <img
+            src="assets/img/career-600.jpg"
+            srcset="assets/img/career-400.jpg 400w, assets/img/career-600.jpg 600w, assets/img/career-900.jpg 900w"
+            sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 300px"
+            alt="People working together in a career training setting"
+            itemprop="image">
+
+          <div class="card-content">
+            <h3 itemprop="headline">Career Advancement</h3>
+            <p itemprop="description">
+              Creating pathways through job training, career development, and employment opportunities.
+            </p>
+          </div>
+        </article>
+
+        <article class="card" itemscope itemtype="https://schema.org/Article">
+          <img
+            src="assets/img/youth-600.jpg"
+            srcset="assets/img/youth-400.jpg 400w, assets/img/youth-600.jpg 600w, assets/img/youth-900.jpg 900w"
+            sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 300px"
+            alt="Young athletes participating in a development program"
+            itemprop="image">
+
+          <div class="card-content">
+            <h3 itemprop="headline">Youth Development</h3>
+            <p itemprop="description">
+              Supporting programs that provide mentorship, education, and skill-building for young people.
+            </p>
+          </div>
+        </article>
+
+        <article class="card" itemscope itemtype="https://schema.org/Article">
+          <img
+            src="assets/img/community-600.jpg"
+            srcset="assets/img/community-400.jpg 400w, assets/img/community-600.jpg 600w, assets/img/community-900.jpg 900w"
+            sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 300px"
+            alt="Community members gathered together at an event"
+            itemprop="image">
+
+          <div class="card-content">
+            <h3 itemprop="headline">Community Engagement</h3>
+            <p itemprop="description">
+              Building stronger communities through partnerships, resources, and local support.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="programs" class="section programs" aria-labelledby="programs-heading">
+      <h2 id="programs-heading">Featured Programs</h2>
+
+      <div class="program-list">
+        <article class="program">
+          <h3>Career Readiness</h3>
+          <p>
+            Programs that help young people build resumes, practice interviews,
+            and prepare for future careers.
+          </p>
+        </article>
+
+        <article class="program">
+          <h3>Mentorship</h3>
+          <p>
+            Connecting youth with positive role models who can provide guidance,
+            support, and encouragement.
+          </p>
+        </article>
+
+        <article class="program">
+          <h3>Community Grants</h3>
+          <p>
+            Supporting local organizations that create opportunities in underserved communities.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="mission" class="section mission-section" aria-labelledby="mission-heading">
+      <h2 id="mission-heading">Our Mission</h2>
+      <p class="mission">
+        The NBA Foundation is dedicated to driving economic empowerment by investing
+        in organizations that help young people build the skills and experiences needed
+        for successful careers.
+      </p>
+    </section>
+
+    <section class="cta">
+      <h2>Building Opportunity Beyond the Game</h2>
+      <p>
+        The NBA Foundation uses the power of basketball to support education,
+        employment, and community growth.
+      </p>
+      <a href="#mission" class="button">View Mission</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      &copy; 2026 Arian King |
+      <a href="#top">Back to Top</a>
+    </p>
+    <p>
+      This website was created as a student project for educational purposes.
+      The NBA is not affiliated with or endorsing this work.
+    </p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
